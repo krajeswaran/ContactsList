@@ -9,7 +9,6 @@ target 'ContactsList' do
   use_react_native!(:path => config["reactNativePath"])
   permissions_path = '../node_modules/react-native-permissions/ios'
 
-  pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
   pod 'Permission-Contacts', :path => "#{permissions_path}/Contacts"
 
   target 'ContactsListTests' do
