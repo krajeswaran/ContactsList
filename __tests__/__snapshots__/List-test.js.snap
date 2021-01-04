@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f8f8f8",
+        "marginBottom": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#e1e8ee",
+          "borderBottomColor": "#e1e1e1",
+          "borderBottomWidth": 1,
+          "borderTopColor": "#e1e1e1",
+          "borderTopWidth": 1,
+          "padding": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "paddingHorizontal": 0,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#bdc6cf",
+              "borderBottomWidth": 0,
+              "borderColor": "#86939e",
+              "borderRadius": 3,
+              "flexDirection": "row",
+              "minHeight": 30,
+              "overflow": "hidden",
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "marginLeft": 8,
+                "marginVertical": 4,
+                "paddingRight": 4,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "color": "#86939e",
+                          "fontSize": 18,
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        Object {
+                          "fontFamily": "Material Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                    testID="iconIcon"
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Search by Name ..."
+            placeholderTextColor="#86939e"
+            platform="default"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#86939e",
+                "flex": 1,
+                "fontSize": 18,
+                "marginLeft": 10,
+                "minHeight": 40,
+              }
+            }
+            testID="searchInput"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "marginRight": 8,
+                "marginVertical": 4,
+                "paddingRight": 4,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            />
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "height": 0,
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <RCTScrollView
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      horizontal={false}
+      initialNumToRender={5}
+      keyExtractor={[Function]}
+      keyboardShouldPersistTaps="always"
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "marginBottom": 20,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;
