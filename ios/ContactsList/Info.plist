@@ -52,7 +52,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSContactsUsageDescription</key>
-	<string></string>
+	<string>To Fetch and Show the Contacts</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIAppFonts</key>
